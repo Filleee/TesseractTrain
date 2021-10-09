@@ -1,5 +1,7 @@
 ### How to Use
 
+### NOTE : Run sudo apt-get install libicu-dev libpango1.0-dev libcairo2-dev and sudo apt-get install automake ca-certificates g++ git libtool libleptonica-dev make pkg-config first to make the training tools.
+
 #### Note: Please Remove the .gitignore files from data/fonts and data/output before using this repository
 
 #### Step 1: Setting Up The Structure for the Repository
