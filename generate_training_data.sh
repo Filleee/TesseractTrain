@@ -1,5 +1,5 @@
 rm -rf data/output/*
-tesstrain.sh --fonts_dir data/fonts \
+./tesseract/src/training/tesstrain.sh --fonts_dir data/fonts \
 	     --fontlist 'OCR A Extended' \
 	     --lang ind \
 	     --linedata_only \
