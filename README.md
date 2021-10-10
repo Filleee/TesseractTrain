@@ -43,4 +43,8 @@ The pipeline will do the following things:
 2. Extract the Model for further fine tuning
 3. train the model on the new font, the new model will be saved in finetuned_model
 
+#### Step 4: Run `combine.sh` to get .traineddata from your output
+
+#### Step 5 (Optional): Run `evaluate.sh` to evaluate how accurate your new .traineddata is
+
 Thanks to : https://github.com/UYousafzai/easy_train_tesseract/tree/fonts
