@@ -1,4 +1,4 @@
-lstmeval --model data/model/ind.lstm \
+lstmeval --model data/finetuned_model/_checkpoint \
   --traineddata data/tess_data/ind.traineddata \
   --eval_listfile data/output/ind.training_files.txt
 
