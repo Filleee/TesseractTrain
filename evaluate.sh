@@ -1,6 +1,7 @@
 lstmeval --model data/finetuned_model/_checkpoint \
   --traineddata data/tess_data/ind.traineddata \
-  --eval_listfile data/output/ind.training_files.txt
+  --eval_listfile data/output/ind.training_files.txt \
+  --debug_interval 100
 
 
 #--model_dat takes the extracted model as input
