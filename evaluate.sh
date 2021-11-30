@@ -1,4 +1,4 @@
-lstmeval --model data/finetuned_model/_checkpoint \
+lstmeval --model data/tess_data/_checkpoint \
   --traineddata data/tess_data/ind.traineddata \
   --eval_listfile data/output/ind.training_files.txt \
   --verbosity 2

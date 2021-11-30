@@ -1,6 +1,5 @@
-rm -rf data/output/*
 ./tesseract/src/training/tesstrain.sh --fonts_dir data/fonts \
-	     --fontlist 'arial' \
+	     --fontlist 'OCR A Extended' \
 	     --lang ind \
 	     --linedata_only \
 	     --langdata_dir data/lang_data \
